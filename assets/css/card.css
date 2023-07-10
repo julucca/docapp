@@ -1,0 +1,90 @@
+.card-list__container {
+    padding-top: .5rem;
+}
+
+.card-list__title {
+    font-weight: 700;
+    line-height: 160%;
+    margin-bottom: .5rem;
+}
+
+.card__container {
+    background: #FFF;
+    border-radius: 0.5rem;
+    padding-block: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: .75rem;
+    padding-inline: 1rem;
+}
+
+.card__profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card__profile img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+.card__info h3 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.card__info span {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: var(--gray-50);
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.card__icon {
+    width: 1rem;
+    height: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card__icon--call {
+    background-image: url('../img/camera.svg');
+}
+
+.card__icon--map {
+    background-image: url('../img/map.svg');
+}
+
+.card__btn--chat {
+    background-image: url('../img/chat-icon.svg');
+    background-color: var(--gray-5);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.card__content {
+    border-top: 1px solid #46464619;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 160%;
+    padding-inline: 1rem;
+    padding-top: .5rem;
+}
+
+.card__chat {
+    display: flex;
+    gap: 1.13rem;
+}
