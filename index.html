@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.4.0/css/all.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>DocApp</title>
@@ -279,49 +280,53 @@
         </section>
     </main>
 
-    <footer>
-        <div class="floating__menu">
-            <button class="floating__btn floating__btn--cadastro"><span></span></button>
-            <ul class="floating__list">
-                <li>
-                    <span>Nova consulta na casa do paciente</span>
-                    <button class="floating__btn floating__btn--item floating__btn--map"><span></span></button>
-                </li>
-                <li>
-                    <span>Nova consulta por vídeo</span>
-                    <button class="floating__btn floating__btn--item floating__btn--call"><span></span></button>
-                </li>
-            </ul>
-        </div>
-        <nav class="footer__nav">
-            <ul>
-                <li class="active">
-                    <a href="#">
-                        <span class="footer__icon footer__icon--calendar"></span>
-                        Consultas
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="footer__icon footer__icon--client"></span>
-                        Clientes
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="footer__icon footer__icon--report"></span>
-                        Relatórios
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="footer__icon footer__icon--menu"></span>
-                        Menu
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </footer>
+    <div class="floating__menu">
+        <button class="floating__btn floating__btn--register"><span></span></button>
+        <ul class="floating__list">
+            <li>
+                <span>Nova consulta na casa do paciente</span>
+                <button class="floating__btn floating__btn--item floating__btn--map"><span></span></button>
+            </li>
+            <li>
+                <span>Nova consulta por vídeo</span>
+                <button class="floating__btn floating__btn--item floating__btn--call"><span></span></button>
+            </li>
+        </ul>
+    </div>
+
+    <nav class="nav__container">
+        <ul>
+            <li class="active">
+                <a href="#">
+                    <i class="fa-regular fa-calendar nav__icon"></i>
+                    <!-- <span class="nav__icon nav__icon--calendar"></span> -->
+                    Consultas
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-user-group nav__icon"></i>
+                    <!-- <span class="nav__icon nav__icon--client"></span> -->
+                    Clientes
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-chart-simple nav__icon"></i>
+                    <!-- <span class="nav__icon nav__icon--report"></span> -->
+                    Relatórios
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-bars nav__icon"></i>
+                    <!-- <span class="nav__icon nav__icon--menu"></span> -->
+                    Menu
+                </a>
+            </li>
+        </ul>
+    </nav>
+
 </body>
 
 </html>

@@ -10,14 +10,18 @@
     height: 3.5rem;
 }
 
-.floating__btn--cadastro {
+.floating__btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.floating__btn--register {
     position: fixed;
     right: .5rem;
     bottom: 5rem;
     z-index: 3;
 }
 
-.floating__btn--cadastro span {
+.floating__btn--register span {
     background-image: url('../img/floating-add-icon.svg');
 }
 

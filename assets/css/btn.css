@@ -26,6 +26,13 @@
     color: #FFF;
 }
 
+.btn--primary:hover,
+.btn--secondary:hover,
+.btn--tertiary:hover {
+    background-color: var(--gray-5);
+    color: var(--black-90);
+}
+
 @media (min-width: 768px) {
     .btn {
         font-size: .875rem;

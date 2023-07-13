@@ -75,6 +75,10 @@
     border-radius: 50%;
 }
 
+.card__btn--chat:hover {
+    background-color: var(--gray-25);
+}
+
 .card__content {
     border-top: 1px solid #46464619;
     font-size: 0.75rem;
@@ -95,14 +99,14 @@
     }
 
     .card-list__container ul {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        column-gap: 2rem;
-        row-gap: 1rem;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
     }
 
     .card__container {
-        width: calc(50vw - 2rem);
+        width: 48.85%;
+
     }
 
     .card__profile img {
@@ -123,12 +127,13 @@
     }
 }
 
-@media (min-width: 1098px) {
+@media (min-width: 1400px) {
     .card-list__container ul {
         grid-template-columns: repeat(3, auto);
+        max-width: 1400px;
     }
 
     .card__container {
-        width: calc(33.3vw - 2rem);
+        width: 32.4%;
     }
 }
