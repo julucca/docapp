@@ -32,7 +32,7 @@
 .card__profile img {
     width: 2rem;
     height: 2rem;
-    border-radius: 1rem;
+    border-radius: 50%;
 }
 
 .card__info h3 {
@@ -87,4 +87,48 @@
 .card__chat {
     display: flex;
     gap: 1.13rem;
+}
+
+@media (min-width: 768px) {
+    .card-list__title {
+        font-size: 1.25rem;
+    }
+
+    .card-list__container ul {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 2rem;
+        row-gap: 1rem;
+    }
+
+    .card__container {
+        width: calc(50vw - 2rem);
+    }
+
+    .card__profile img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .card__info h3 {
+        font-size: 1rem;
+    }
+
+    .card__info span {
+        font-size: 0.875rem;
+    }
+
+    .card__content {
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 1098px) {
+    .card-list__container ul {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .card__container {
+        width: calc(33.3vw - 2rem);
+    }
 }

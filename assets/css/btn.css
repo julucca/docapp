@@ -24,5 +24,10 @@
 .btn--tertiary {
     background-color: var(--primary-color);
     color: #FFF;
+}
 
+@media (min-width: 768px) {
+    .btn {
+        font-size: .875rem;
+    }
 }

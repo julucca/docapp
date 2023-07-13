@@ -19,6 +19,8 @@
 .footer__nav ul {
     display: flex;
     justify-content: space-between;
+    max-width: 580px;
+    margin-inline: auto;
 }
 
 .footer__nav .active {
@@ -53,4 +55,10 @@
 
 .footer__icon--menu {
     background-image: url('../img/footer-menu-icon.svg');
+}
+
+@media (min-width: 768px) {
+    .footer__nav {
+        font-size: .875rem;
+    }
 }
