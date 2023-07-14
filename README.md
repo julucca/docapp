@@ -4,7 +4,7 @@ Repositório com a conclusão do projeto do desafio [7 Days Of Code de Responsiv
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **DocApp | #7DaysOfCode**
+| :sparkles: Nome        | **DocApp - #7DaysOfCode**
 | :label: Tecnologias | HTML e CSS
 | :rocket: URL         | https://docapp-tau.vercel.app/
 | :fire: Desafio     | https://7daysofcode.io/matricula/responsividade
