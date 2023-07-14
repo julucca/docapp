@@ -9,7 +9,7 @@ Repositório com a conclusão do projeto do desafio [7 Days Of Code de Responsiv
 | :rocket: URL         | https://docapp-tau.vercel.app/
 | :fire: Desafio     | https://7daysofcode.io/matricula/responsividade
 
-![](https://github.com/julucca/docapp/blob/main/assets/img/readme/cover.png#vitrinedev)
+![](https://github.com/julucca/docapp/blob/main/cover.png?raw=true#vitrinedev)
 
 ## 📁 Detalhes do projeto
 
