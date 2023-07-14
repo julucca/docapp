@@ -1,0 +1,72 @@
+.form__container {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .form__container {
+        display: block;
+        margin-block: 1rem;
+    }
+
+    .form__add {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__field {
+        color: #898989;
+        font-weight: 400;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .form__field input,
+    .form__field select,
+    .form__field textarea {
+        background: #FFF;
+        border-radius: 0.5rem;
+        border: 1px solid var(--gray-25);
+        color: var(--black-90);
+        font-family: var(--font);
+        padding: 1rem;
+        outline: none;
+    }
+
+    .form__field select,
+    .form__field input[type="date"],
+    .form__field input[type="time"] {
+        cursor: pointer;
+    }
+
+    .form__field input::placeholder,
+    .form__field input:required:invalid,
+    .form__field select:required:invalid {
+        color: #CFCFCF;
+    }
+
+    .form__field select option {
+        color: var(--black-90)
+    }
+
+    .form__field input:focus,
+    .form__field select:focus,
+    .form__field textarea:focus {
+        border: 2px solid var(--primary-color);
+    }
+
+    .form__fieldset {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .form__btn {
+        align-self: flex-end;
+        padding-inline: 3rem;
+        width: auto;
+    }
+}

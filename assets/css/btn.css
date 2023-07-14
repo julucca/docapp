@@ -30,7 +30,7 @@
 .btn--secondary:hover,
 .btn--tertiary:hover {
     background-color: var(--gray-5);
-    color: var(--black-90);
+    color: var(--gray-50);
 }
 
 @media (min-width: 768px) {

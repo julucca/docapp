@@ -88,3 +88,9 @@
 .floating__btn--call span {
     background-image: url('../img/floating-cam-icon.svg');
 }
+
+@media (min-width: 992px) {
+    .floating__menu {
+        display: none;
+    }
+}

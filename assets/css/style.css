@@ -3,6 +3,7 @@
 @import url('./btn.css');
 @import url('./floating.css');
 @import url('./nav.css');
+@import url('./form.css');
 
 :root {
     --primary-color: #4894FF;

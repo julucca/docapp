@@ -278,6 +278,39 @@
                 </li>
             </ul>
         </section>
+
+        <section class="form__container">
+            <h3 class="card-list__title">Formulário</h3>
+            <form action="#" class="form__add">
+                <div class="form__field">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                </div>
+                <div class="form__field">
+                    <label for="type">Tipo de de consulta</label>
+                    <select id="type" required>
+                        <option selected disabled value="">Selecione uma opção</option>
+                        <option>consulta por vídeo</option>
+                        <option>consulta na casa do paciente</option>
+                    </select>
+                </div>
+                <fieldset class="form__fieldset">
+                    <div class="form__field">
+                        <label for="date">Data da consulta</label>
+                        <input type="date" name="date" id="date" required>
+                    </div>
+                    <div class="form__field">
+                        <label for="time">Horário</label>
+                        <input type="time" name="time" id="time" required>
+                    </div>
+                </fieldset>
+                <div class="form__field">
+                    <label for="obs">Observações</label>
+                    <textarea name="obs" id="obs" cols="30" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn--tertiary form__btn">Salvar</button>
+            </form>
+        </section>
     </main>
 
     <div class="floating__menu">
