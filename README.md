@@ -4,10 +4,6 @@ Repositório com a conclusão do projeto do desafio [7 Days Of Code de Responsiv
 
 ## 📁 Detalhes do projeto
 
-<div align="center">
-	<img width=80px src="./assets/img/favicon.ico">
-</div><br>
-
 A proposta deste desafio foi desenvolver uma página responsiva para o controle de consultas médicas, usando apenas HTML e CSS.
 
 Com base no [protótipo disponibilizado no Figma](https://www.figma.com/file/4OjHFmeHAgfX2JpRymOeA0/7days---Responsividade?node-id=0%3A1&mode=dev) a abordagem utilizada para este projeto foi o mobile-first.
