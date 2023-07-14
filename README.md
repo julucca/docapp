@@ -2,12 +2,12 @@
 
 Repositório com a conclusão do projeto do desafio [7 Days Of Code de Responsividade](https://7daysofcode.io/matricula/responsividade) da Alura.
 
-| :placard: Vitrine.Dev |                                                 |
-| --------------------- | ----------------------------------------------- | ---------------- |
-| :sparkles: Nome       | \*\*DocApp                                      | #7DaysOfCode\*\* |
-| :label: Tecnologias   | HTML, CSS                                       |
-| :rocket: URL          | https://docapp-tau.vercel.app/                  |
-| :fire: Desafio        | https://7daysofcode.io/matricula/responsividade |
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **DocApp | #7DaysOfCode**
+| :label: Tecnologias | HTML e CSS
+| :rocket: URL         | https://docapp-tau.vercel.app/
+| :fire: Desafio     | https://7daysofcode.io/matricula/responsividade
 
 ![](https://github.com/julucca/docapp/blob/main/assets/img/readme/cover.png#vitrinedev)
 
